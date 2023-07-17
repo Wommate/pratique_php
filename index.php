@@ -16,57 +16,60 @@
                <a class="navbar-brand" href="#">
                     <img src="./mio.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
                </a>
-               <h1 class="text-center mx-auto h1">
+               <h1 class="h5">
                     TP Sites web dynamiques</h1>
           </div>
 
      </nav>
 
      <main>
+          <div class="container-fluid h-50">
+                    <img src="./hero.jpg" alt="tp" class="object-fit-cover w-100  rounded" style="height: 300px !important;">
+          </div>
           <div class="container w-75">
                <h2 class="text-center h2 mt-5">
                     Premier serie bases et notions algorithmiques</h2>
 
                <?php
-               require('exercice1.php');
+               require('exercies/exercice1.php');
                ?>
                <hr class="border border-danger border-2 opacity-50 mt-5">
                <?php
-               require('exercice2.php')
+               require('exercies/exercice2.php')
                ?>
                <hr class="border border-success border-2 opacity-50 mt-5">
                <?php
-               require('exercice3.php')
+               require('exercies/exercice3.php')
                ?>
                <hr class="border border-info border-2 opacity-50 mt-5">
                <?php
-               require('exercice4.php')
+               require('exercies/exercice4.php')
                ?>
                <hr class="border border-warning border-2 opacity-50 mt-5">
                <?php
-               require('exercice5.php')
+               require('exercies/exercice5.php')
                ?>
                <hr class="border border-black border-2 opacity-50 mt-5">
                <?php
-               require('exercice6.php')
+               require('exercies/exercice6.php')
                ?>
 
           </div>
           </div>
      </main>
 
-     
-          <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-               <div class="col-md-4 d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                         <svg class="bi" width="30" height="24">
-                              <use xlink:href="#bootstrap" />
-                         </svg>
-                    </a>
-                    <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Lib'scode, powered with 💟 </span>
-               </div>
-          </footer>
-     
+
+     <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+               <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                         <use xlink:href="#bootstrap" />
+                    </svg>
+               </a>
+               <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Lib'scode, powered with 💟 </span>
+          </div>
+     </footer>
+
 
 </body>
 
