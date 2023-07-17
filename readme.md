@@ -1,5 +1,6 @@
 # Exercices et Corrections en PHP
 
+[lien vers la page](./index.html)
 Ce dépôt contient une page HTML interactive avec des exercices et leurs corrections en PHP. Cette ressource est spécialement conçue pour les étudiants en licence à l'Université Assane Seck de Ziguinchor pour les aider à apprendre le PHP et à pratiquer leurs compétences en résolvant des exercices.
 
 ## Accès à la page
